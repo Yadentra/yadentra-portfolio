@@ -10,16 +10,11 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 .header-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .profile-picture {
@@ -27,13 +22,12 @@ header {
     height: 150px;
     border-radius: 50%;
     border: 4px solid #fff;
-    position: absolute;
-    top: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 .header-text {
-    text-align: center;
-    margin-left: 160px;
+    flex: 1;
 }
 
 h1, h2 {
