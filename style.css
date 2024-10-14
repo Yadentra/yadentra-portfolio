@@ -57,7 +57,12 @@ ul {
 li {
     margin-bottom: 5px;
 }
-
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
 .project {
     display: flex;
     justify-content: space-between;
