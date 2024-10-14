@@ -65,15 +65,4 @@ li {
     margin-bottom: 20px;
 }
 .project img {
-    width: 160px;
-    height: auto;
-    border-radius: 5px;
-}
-.project-info {
-    flex: 1;
-    margin-right: 20px;
-}
-.project-info h3 {
-    margin-top: 0;
-}
-.project
+    width: 160px; 
