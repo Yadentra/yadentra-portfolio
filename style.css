@@ -5,7 +5,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background-color: #333;
     color: #fff;
@@ -38,7 +37,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Main Content */
 main {
     padding: 20px;
     max-width: 800px;
@@ -60,61 +58,23 @@ li {
     margin-bottom: 5px;
 }
 
-/* Project Section */
 .project {
-    display: flex;                   /* Align items horizontally */
-    justify-content: space-between; /* Space out items */
-    align-items: center;            /* Center vertically */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
-
 .project img {
-    width: 80px;                   /* Set smaller width for images */
-    height: auto;                  /* Maintain aspect ratio */
-    border-radius: 5px;           /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
 }
-
 .project-info {
-    flex-grow: 1;                  /* Allow info to take available space */
-    margin-right: 15px;            /* Space between text and image */
+    flex: 1;
+    margin-right: 20px;
 }
-
-.project h3 {
+.project-info h3 {
     margin-top: 0;
 }
 .project a {
-    color: #007bff;
-    text-decoration: none;
-}
-.project a:hover {
-    text-decoration: underline;
-}
-
-/* Social Icons */
-.social-icons {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-.social-icons li {
-    margin: 0 5px;
-}
-.social-icons a {
-    color: #333;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-.social-icons a:hover {
-    color: #007bff;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
+    color: #007
