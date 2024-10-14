@@ -62,17 +62,24 @@ li {
 
 /* Project Section */
 .project {
-    display: flex;
-    align-items: flex-start;
+    display: flex;                   /* Align items horizontally */
+    justify-content: space-between; /* Space out items */
+    align-items: center;            /* Center vertically */
     margin-bottom: 20px;
 }
+
 .project img {
-    width: 120px;
-    height: auto;
-    margin-right: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80px;                   /* Set smaller width for images */
+    height: auto;                  /* Maintain aspect ratio */
+    border-radius: 5px;           /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
+
+.project-info {
+    flex-grow: 1;                  /* Allow info to take available space */
+    margin-right: 15px;            /* Space between text and image */
+}
+
 .project h3 {
     margin-top: 0;
 }
