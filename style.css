@@ -65,7 +65,7 @@ li {
     margin-bottom: 20px;
 }
 .project img {
-    width: 80px;
+    width: 160px;
     height: auto;
     border-radius: 5px;
 }
@@ -76,5 +76,4 @@ li {
 .project-info h3 {
     margin-top: 0;
 }
-.project a {
-    color: #007
+.project
