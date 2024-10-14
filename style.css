@@ -64,11 +64,7 @@ footer {
     text-align: center;
     margin-align: center;
 }
-.project {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+
 }
 .project img {
     width: 160px; 
